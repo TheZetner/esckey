@@ -15,3 +15,9 @@ esckey module UI
 \description{
 Place \code{escUI()} call somewhere within your \code{ui} definition
 }
+\examples{
+\dontrun{
+# Placed in app UI function
+escUI()
+}
+}
