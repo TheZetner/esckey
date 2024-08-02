@@ -5,7 +5,7 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of esckey is to make debugging shiny apps easier by allowing the Esc key to activate the browser.
+Relax and grab a cold one from the Esky: it's easy to debug shiny with a simple key press.
 
 ## Installation
 

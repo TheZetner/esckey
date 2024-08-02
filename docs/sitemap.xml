@@ -1,27 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>/404.html</loc>
-  </url>
-  <url>
-    <loc>/authors.html</loc>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-  </url>
-  <url>
-    <loc>/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>/reference/escServer.html</loc>
-  </url>
-  <url>
-    <loc>/reference/escUI.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://github.com/TheZetner/esckey/404.html</loc></url>
+<url><loc>https://github.com/TheZetner/esckey/authors.html</loc></url>
+<url><loc>https://github.com/TheZetner/esckey/index.html</loc></url>
+<url><loc>https://github.com/TheZetner/esckey/LICENSE-text.html</loc></url>
+<url><loc>https://github.com/TheZetner/esckey/LICENSE.html</loc></url>
+<url><loc>https://github.com/TheZetner/esckey/reference/escServer.html</loc></url>
+<url><loc>https://github.com/TheZetner/esckey/reference/escUI.html</loc></url>
+<url><loc>https://github.com/TheZetner/esckey/reference/index.html</loc></url>
 </urlset>
+

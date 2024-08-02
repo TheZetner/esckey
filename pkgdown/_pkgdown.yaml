@@ -1,8 +1,16 @@
+url: https://github.com/TheZetner/esckey
+
 template:
-  bootstrap: 5
   light-switch: true
+  bootstrap: 5
   bslib:
     primary: "#0054AD"
     border-radius: 0.5rem
     btn-border-radius: 0.25rem
     danger: "#A6081A"
+
+navbar:
+  right:
+  - icon: fa-github
+    href: https://github.com/TheZetner/esckey
+    aria-label: GitHub

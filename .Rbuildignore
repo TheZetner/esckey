@@ -1,3 +1,5 @@
 ^esckey\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+docs/
+pkgdown/

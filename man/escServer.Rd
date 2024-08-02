@@ -23,7 +23,3 @@ Place \code{escServer(i = input, o = output)} call somewhere within your \code{s
 Respond to \code{esc} keypress with \code{browser()}
 Must provide names for objects provided with \code{...} eg. \code{foo = foo}
 }
-\examples{
-\dontrun{escServer(i = input, o = output)}
-
-}

@@ -4,6 +4,7 @@ Version: 0.1.0
 Authors@R: 
     person("Adrian", "Zetner", , "Adrian.Zetner@gmail.com", role = c("cre", "aut"))
 Description: Relax and grab a cold one from the Esky: it's easy to debug shiny with a simple key press!
+URL: https://github.com/TheZetner/esckey
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
