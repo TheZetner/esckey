@@ -9,8 +9,6 @@
 #' @param id "esc"
 #'
 #' @return esckey module UI
-#' @examples
-#' \dontrun{escUI()}
 #' @export
 #'
 escUI <- function(id = "esc") {
@@ -39,8 +37,7 @@ escUI <- function(id = "esc") {
 #' @param ... any other NAMED objects from main shiny process to pass to browser
 #'
 #' @return esckey module server
-#' @examples
-#' \dontrun{escServer(i = input, o = output)}
+#'
 #'
 #' @export
 #'
