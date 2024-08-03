@@ -9,6 +9,11 @@
 #' @param id "esc"
 #'
 #' @return esckey module UI
+#' @examples
+#' \dontrun{
+#' # Placed in app UI function
+#' escUI()
+#' }
 #' @export
 #'
 escUI <- function(id = "esc") {
@@ -38,6 +43,11 @@ escUI <- function(id = "esc") {
 #'
 #' @return esckey module server
 #'
+#' @examples
+#' \dontrun{
+#' # Placed in app server function
+#' escServer(i = input, o = output)
+#' }
 #'
 #' @export
 #'
