@@ -2,4 +2,4 @@
 
 export(escServer)
 export(escUI)
-import(shiny)
+importFrom(shinyjs,runExample)

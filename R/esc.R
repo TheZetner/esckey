@@ -4,7 +4,7 @@
 #'
 #' Place `escUI()` call somewhere within your `ui` definition
 #'
-#' @import shiny
+#' @importFrom shinyjs runExample
 #'
 #' @param id "esc"
 #'
@@ -17,7 +17,7 @@
 #' @export
 #'
 escUI <- function(id = "esc") {
-  ns <- NS(id)
+  ns <- shiny::NS(id)
   js <- sprintf(
     '$(document).on("keydown", function (e) { Shiny.onInputChange("%s", e.code); }); $(document).on("keyup", function (e) { Shiny.onInputChange("%s", null); });',
     ns("key"),
@@ -35,7 +35,8 @@ escUI <- function(id = "esc") {
 #' Respond to `esc` keypress with `browser()`
 #' Must provide names for objects provided with `...` eg. `foo = foo`
 #'
-#' @import shiny
+#' @importFrom shinyjs runExample
+#'
 #' @param id module namespace id "esc"
 #' @param i shiny input
 #' @param o shiny output
@@ -52,8 +53,8 @@ escUI <- function(id = "esc") {
 #' @export
 #'
 escServer <- function(id = "esc", i, o, ...) {
-  moduleServer(id, function(input, output, session) {
-    observe({
+  shiny::moduleServer(id, function(input, output, session) {
+    shiny::observe({
       if (!is.null(input$key) && input$key == "Escape") {
         message("Examine input with i, output with o")
         args <- list(...)
