@@ -5,6 +5,7 @@
 #' Place `escUI()` call somewhere within your `ui` definition
 #'
 #' @importFrom shinyjs runExample
+#' @importFrom shiny tagList tags HTML
 #'
 #' @param id "esc"
 #'
